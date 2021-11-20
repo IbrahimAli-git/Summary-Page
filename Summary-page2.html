@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Summary Page</title>
+    <link rel="stylesheet" href="style-summary-page.css">
+</head>
+
+<body>
+    <div class="cent">
+
+       <!--Nest all that is below in a form element-->
+
+        <h1>Employee Interests Survey Form</h1>
+        <br>
+        <p>Enter your department name: </p>
+        <input type="text" style="position: relative; left: 200px; bottom: 35px;">
+        <br>
+        <p>Enter your department: </p>
+        <input type="text" style="position: relative; left: 200px; bottom: 35px; height: 15px;">
+
+
+        <p>Tell us a little about yourself</p>
+        <input type="text" style="position: relative; left: 225px; bottom: 35px; height: 100px; width: 200px;">
+
+        <p>Do you exercise at home?</p>
+        <label for="Yes">
+            <input type="radio" name="exercise" id="Yes" value="Yes">Yes
+        </label>
+        <label for="No">
+            <input type="radio" name="exercise" id="No" value="No">No
+        </label>
+
+        <p>How do you like to read about your favorite topics?</p>
+        <label for="Books">
+            <input type="checkbox" name="topics" id="Books" value="Books">Books
+        </label>
+        <label for="Online resources">
+            <input type="checkbox" name="topics" id="Online resources">Online resources
+        </label>
+        <label for="Phone apps">
+            <input type="checkbox" name="topics" id="Phone apps">Phone apps
+        </label>
+        <label for="Magazines">
+            <input type="checkbox" name="topics" id="Magazines">Magazines
+        </label>
+
+
+        <p>What genre of movies do you like?</p>
+
+        <button type="submit">Submit form</button>
+    </div>
+
+</body>
+
+</html>
