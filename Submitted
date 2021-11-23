@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form submitted</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Thank you for submitting the form</h1>
+
+
+    <img src="https://images.unsplash.com/photo-1610049354374-9705db19fef9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDcxfGlVSXNuVnRqQjBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=300&q=60"
+       style="position: relative; left: 525px; top: 100px; width: 500px; " alt="colorful ballon">
+</body>
+
+</html>
