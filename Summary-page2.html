@@ -9,46 +9,60 @@
 <body>
     <div class="cent">
 
-       <!--Nest all that is below in a form element-->
+        <!--Nest all that is below in a form element-->
 
-        <h1>Employee Interests Survey Form</h1>
-        <br>
-        <p>Enter your department name: </p>
-        <input type="text" style="position: relative; left: 200px; bottom: 35px;">
-        <br>
-        <p>Enter your department: </p>
-        <input type="text" style="position: relative; left: 200px; bottom: 35px; height: 15px;">
+        <form action="Submitted.html">
 
-
-        <p>Tell us a little about yourself</p>
-        <input type="text" style="position: relative; left: 225px; bottom: 35px; height: 100px; width: 200px;">
-
-        <p>Do you exercise at home?</p>
-        <label for="Yes">
-            <input type="radio" name="exercise" id="Yes" value="Yes">Yes
-        </label>
-        <label for="No">
-            <input type="radio" name="exercise" id="No" value="No">No
-        </label>
-
-        <p>How do you like to read about your favorite topics?</p>
-        <label for="Books">
-            <input type="checkbox" name="topics" id="Books" value="Books">Books
-        </label>
-        <label for="Online resources">
-            <input type="checkbox" name="topics" id="Online resources">Online resources
-        </label>
-        <label for="Phone apps">
-            <input type="checkbox" name="topics" id="Phone apps">Phone apps
-        </label>
-        <label for="Magazines">
-            <input type="checkbox" name="topics" id="Magazines">Magazines
-        </label>
+            <h1>Employee Interests Survey Form</h1>
+            <br>
+            <p>Enter your department name: </p>
+            <input type="text" style="position: relative; left: 200px; bottom: 35px;">
+            <br>
+            <p>Enter your department: </p>
+            <input type="text" style="position: relative; left: 200px; bottom: 35px; height: 15px;">
 
 
-        <p>What genre of movies do you like?</p>
+            <p>Tell us a little about yourself</p>
+            <input type="text" style="position: relative; left: 225px; bottom: 35px; height: 100px; width: 200px;">
 
-        <button type="submit">Submit form</button>
+            <p>Do you exercise at home?</p>
+            <label for="Yes" style="position: relative; left: 135px; bottom: 35px;">
+                <input type="radio" name="exercise" id="Yes" value="Yes">Yes
+            </label>
+            <label for="No" style="position: relative; left: 135px; bottom: 35px;">
+                <input type="radio" name="exercise" id="No" value="No">No
+            </label>
+
+            <p style="height: 25px;">How do you like to read about your favorite topics?</p>
+            <label for="Books">
+                <input type="checkbox" name="topics" id="Books" value="Books">Books
+            </label>
+            <label for="Online resources">
+                <input type="checkbox" name="topics" id="Online resources">Online resources
+            </label>
+            <label for="Phone apps">
+                <input type="checkbox" name="topics" id="Phone apps">Phone apps
+            </label>
+            <label for="Magazines">
+                <input type="checkbox" name="topics" id="Magazines">Magazines
+            </label>
+
+            <p style="margin: 30px;">What genre of movies do you like?
+            <p>
+
+                <select name="movies" id="movie" style="position: relative; left: 200px; bottom: 50px;">
+                    <option value="comedy">comedy</option>
+                    <option value="horror">horror</option>
+                    <option value="romance">romance</option>
+                    <option value="thriller">thriller</option>
+                    <option value="action">action</option>
+                </select>
+
+
+                <button type="submit">Submit form</button>
+
+        </form>
+
     </div>
 
 </body>
